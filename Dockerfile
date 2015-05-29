@@ -10,6 +10,8 @@ RUN \
     bash /tmp/cdh_centos_installer.sh
 
 # private and public mapping
+EXPOSE 8040:8040
+EXPOSE 8088:8088
 EXPOSE 8020:8020
 EXPOSE 8888:8888
 EXPOSE 11000:11000
